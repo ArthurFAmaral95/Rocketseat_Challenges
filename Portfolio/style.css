@@ -6,6 +6,11 @@
 
 :root {
   font-size: 62.5%;
+
+  --background-color: rgb(30, 30, 30);
+  --box-background-color: rgba(48, 47, 61, 1);
+  --profile-picture-border: rgba(0, 255, 0, 1);
+  --font-color: rgba(131, 126, 159, 1);
 }
 
 html,
@@ -18,12 +23,14 @@ body {
   display: grid;
   grid-template-areas: 'aside main';
   grid-template-columns: 1fr 3fr;
+  gap: 6rem;
 
   padding: 4rem;
-}
 
-ul {
-  list-style: none;
+  background-color: var(--background-color);
+
+  font-family: 'Merriweather Sans', sans-serif;
+  color: var(--font-color);
 }
 
 img {
@@ -31,10 +38,121 @@ img {
   border-radius: 50%;
 }
 
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.box {
+  background-color: var(--box-background-color);
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
+main,
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 main {
   grid-area: main;
 }
 
+main #projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main #projects p:nth-child(1),
+main #posts p:nth-child(1) {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+main #projects p:nth-child(2) {
+  font-size: 1.4rem;
+}
+
+main .repos {
+  display: flex;
+  gap: 3rem;
+}
+
+main .repos .repo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+main .repos .repo .repo-name {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+main .repos .repo .repo-name p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+main .repos .repo .repo-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .repos .repo .repo-info .stats,
+main .repos .repo .repo-info .tech {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+main .repos .repo .repo-info .stats .stars,
+main .repos .repo .repo-info .stats .branches {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+main .repos .repo .repo-info .tech {
+  gap: 0.8rem;
+}
+
+main #profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main #profile #profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+main #profile #profile-info p:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
 aside {
   grid-area: aside;
+}
+
+aside #person-id img {
+  border: 1px solid var(--profile-picture-border);
+}
+
+aside #info ul,
+aside #techs ul {
+  list-style: none;
 }
