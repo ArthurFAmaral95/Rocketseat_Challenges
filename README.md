@@ -14,3 +14,14 @@ A repository to solve Rocketseat challenges using HTML, CSS and JavaScript.
 <li>Github API</li>
 </ul>
 <img src ="./challenges-pics/portfolio-pic.png"></img>
+<hr>
+<h2>Social Tree</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a page with links to social media</p>
+<ul>
+<li>Display flex</li>
+<li>Lists</li>
+<li>Variables</li>
+<li>Github API</li>
+</ul>
+<img src ="./challenges-pics/social-tree-pic.png"></img>
+<hr>
