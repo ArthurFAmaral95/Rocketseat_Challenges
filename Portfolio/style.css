@@ -239,3 +239,15 @@ aside #education ul li p:nth-child(3) {
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+@media (max-width: 1000px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .repos {
+    flex-direction: column;
+  }
+}

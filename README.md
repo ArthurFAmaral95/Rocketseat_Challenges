@@ -11,6 +11,7 @@ A repository to solve Rocketseat challenges using HTML, CSS and JavaScript.
 <li>Display flex</li>
 <li>Display grid</li>
 <li>Variables</li>
+<li>Responsive design</li>
 <li>Github API</li>
 </ul>
 <img src ="./challenges-pics/portfolio-pic.png"></img>
