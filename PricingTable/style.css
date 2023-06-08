@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --yellow: rgb(255, 204, 41);
+  --blue: rgb(29, 83, 158);
+  --gray: rgb(130, 135, 153);
+  --page-background: rgb(249, 251, 252);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--page-background);
+}
+
+body::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 50%;
+  background-color: var(--blue);
+  position: absolute;
+  z-index: -1;
+}
