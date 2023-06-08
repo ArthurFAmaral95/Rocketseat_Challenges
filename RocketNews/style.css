@@ -33,6 +33,12 @@ body {
 
 main {
   grid-area: main;
+  background-color: var(--body-bg-color);
+  padding-inline: 3rem;
+}
+
+header {
+  margin: 5rem 0 9.2rem;
 }
 
 aside {
