@@ -41,6 +41,33 @@ header {
   margin: 5rem 0 9.2rem;
 }
 
+#content {
+  margin-bottom: 5rem;
+}
+
+#content p:nth-child(1) {
+  color: var(--title-color);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+
+#content p:nth-child(2) {
+  color: var(--text-color);
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+
+#content p:nth-child(3) {
+  color: var(--text-color);
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
 aside {
   grid-area: aside;
   background: url(./assets/read_news.jpg) no-repeat right;
