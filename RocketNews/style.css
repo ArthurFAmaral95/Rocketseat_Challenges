@@ -123,6 +123,8 @@ form button {
   border: none;
 
   left: 120%;
+
+  cursor: pointer;
 }
 
 footer {
