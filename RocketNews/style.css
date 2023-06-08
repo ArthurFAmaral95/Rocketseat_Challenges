@@ -68,6 +68,80 @@ header {
   font-weight: 400;
   line-height: 1.9rem;
 }
+
+form {
+  position: relative;
+}
+
+form label {
+  display: block;
+
+  margin-bottom: 1.7rem;
+
+  color: var(--form-color);
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+form span {
+  height: 4.8rem;
+  width: 0.5rem;
+  background-color: var(--title-color);
+
+  position: absolute;
+  z-index: 1;
+}
+
+form input {
+  height: 4.8rem;
+  width: 120%;
+
+  position: absolute;
+
+  padding-left: 1rem;
+
+  border: none;
+}
+
+form input::placeholder {
+  color: var(--form-color);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+form button {
+  position: absolute;
+
+  width: 4.8rem;
+  height: 4.8rem;
+
+  background-color: var(--bg-button-color);
+  border: none;
+
+  left: 120%;
+}
+
+footer {
+  margin-top: 11.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--bg-button-color);
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 aside {
   grid-area: aside;
   background: url(./assets/read_news.jpg) no-repeat right;
