@@ -33,3 +33,25 @@ body::before {
   position: absolute;
   z-index: -1;
 }
+
+header {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  padding: 5rem 0 2rem;
+  color: white;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6.5rem;
+}
+
+header p {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  padding-bottom: 7.5rem;
+}
