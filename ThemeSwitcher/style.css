@@ -33,3 +33,15 @@ img {
 
   top: 50%;
 }
+
+#track {
+  width: 23.6rem;
+  height: 10.2rem;
+  background-color: var(--label);
+  border-radius: 6rem;
+
+  top: calc(50% - (10.2rem / 2));
+  right: calc(50% - (23.6rem / 2));
+
+  z-index: -2;
+}
