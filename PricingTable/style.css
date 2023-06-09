@@ -72,6 +72,13 @@ header p {
   height: 47rem;
 
   position: relative;
+
+  transition: transform 0.3s;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
 }
 
 .plan-type {
@@ -154,7 +161,16 @@ button {
   position: absolute;
   bottom: 3rem;
 
+  transition: all 0.2s;
+
   cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--blue);
+  color: white;
+
+  transition: all 0.2s;
 }
 
 .highlight {
