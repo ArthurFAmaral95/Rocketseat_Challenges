@@ -16,3 +16,20 @@ html,
 body {
   width: 100%;
 }
+
+.container {
+  width: fit-content;
+  margin: auto;
+
+  height: 100vh;
+
+  position: relative;
+}
+
+#track,
+#switcher,
+img {
+  position: absolute;
+
+  top: 50%;
+}
