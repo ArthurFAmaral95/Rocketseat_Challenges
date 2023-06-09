@@ -62,6 +62,8 @@ header p {
   grid-template-columns: repeat(3, 35.5rem);
   gap: 2rem;
   justify-content: center;
+
+  padding-bottom: 5rem;
 }
 
 .plan {
@@ -207,4 +209,23 @@ button:hover {
 
 #basic .condition {
   padding-top: 4.5rem;
+}
+
+@media (max-width: 1184px) {
+  header,
+  .plans {
+    padding-inline: 4rem;
+  }
+
+  .plans {
+    grid-template-columns: repeat(auto-fill, 35.5rem);
+  }
+
+  .highlight {
+    width: 100%;
+  }
+
+  button {
+    width: 80%;
+  }
 }
