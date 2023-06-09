@@ -19,10 +19,14 @@ body {
 
 body {
   background-color: var(--light);
+
+  transition: background 0.5s;
 }
 
 .dark {
   background-color: var(--dark);
+
+  transition: background 0.5s;
 }
 
 .container {
@@ -61,13 +65,17 @@ img {
   border-radius: 50%;
 
   top: calc(50% - (8.6rem / 2));
-  right: calc(50% + 2rem);
+  left: calc(50% + 2rem);
 
   z-index: 0;
+
+  transition: left 0.3s;
 }
 
 .dark #switcher {
-  left: calc(50% + 2rem);
+  left: calc(50% - 11rem);
+
+  transition: left 0.3s;
 }
 
 img {
