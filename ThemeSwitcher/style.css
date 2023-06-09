@@ -57,3 +57,19 @@ img {
 
   z-index: 0;
 }
+
+img {
+  width: 7.7rem;
+
+  top: calc(50% - (7.7rem / 2));
+
+  z-index: -1;
+}
+
+#moon {
+  right: calc(50% + 3rem);
+}
+
+#sun {
+  left: calc(50% + 3rem);
+}
