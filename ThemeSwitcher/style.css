@@ -45,3 +45,15 @@ img {
 
   z-index: -2;
 }
+
+#switcher {
+  width: 8.6rem;
+  height: 8.6rem;
+  background-color: var(--light);
+  border-radius: 50%;
+
+  top: calc(50% - (8.6rem / 2));
+  right: calc(50% + 2rem);
+
+  z-index: 0;
+}
