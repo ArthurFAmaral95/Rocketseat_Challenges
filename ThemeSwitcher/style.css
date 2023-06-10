@@ -86,10 +86,10 @@ img {
   z-index: -1;
 }
 
-#moon {
+#sun {
   right: calc(50% + 3rem);
 }
 
-#sun {
+#moon {
   left: calc(50% + 3rem);
 }

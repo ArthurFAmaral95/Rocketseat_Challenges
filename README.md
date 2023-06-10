@@ -67,3 +67,21 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/wIB8DOXT70X0ABy5RuyGES/Pricing-Table-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=203-68&t=cqEIYc369KgkGwsj-0" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Theme Switcher</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a page where you can toggle beetwen light and dark theme.</p>
+<ul>
+<li>Variables</li>
+<li>Absolute positioning</li>
+<li>Transiton effects</li>
+<li>Event listenner</li>
+</ul>
+<p align="center">
+  <img alt="Theme Switcher project light theme" src="./challenges-pics/LightTheme.png">
+</p>
+<p align="center">
+  <img alt="Theme Switcher project dark theme" src="./challenges-pics/DarkTheme.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/WMxNPZzs4xaqDWA89dbcAD/Theme-Switcher-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=302-12&t=XGdyJKau8v3qfKAV-0" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
