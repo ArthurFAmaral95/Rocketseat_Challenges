@@ -3,6 +3,9 @@ const hoursText = document.querySelector('#hours .number')
 const minutesText = document.querySelector('#minutes .number')
 const secondsText = document.querySelector('#seconds .number')
 
+const subscribeBtn = document.querySelector('footer button')
+const form = document.querySelector('form')
+
 function countDown() {
   const launchDate = new Date('September 31, 2023 00:00:00')
 
@@ -21,4 +24,18 @@ function countDown() {
   secondsText.textContent = `${seconds < 10 ? `0${seconds}` : `${seconds}`}`
 }
 
+function openForm() {
+  form.classList.remove('hidden')
+}
+
+function submitForm(e) {
+  e.preventDefault()
+
+  form.classList.add('hidden')
+
+  form.reset()
+}
+
 setInterval(countDown, 1000)
+subscribeBtn.addEventListener('click', openForm)
+form.addEventListener('submit', submitForm)
