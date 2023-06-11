@@ -110,7 +110,7 @@ footer p {
   color: var(--text-color);
 }
 
-footer button {
+button {
   width: 16rem;
   height: 4.6rem;
 
@@ -129,7 +129,7 @@ footer button {
   transition: background 0.3s;
 }
 
-footer button:hover {
+button:hover {
   background-color: rgba(108, 99, 255, 0.8);
 
   transition: background 0.3s;
@@ -137,4 +137,42 @@ footer button:hover {
 
 aside {
   grid-area: aside;
+}
+
+form {
+  position: absolute;
+  top: calc(50% - (33.5rem / 2));
+  right: calc(50% - (40rem / 2));
+  z-index: 1;
+  width: 40rem;
+
+  background-color: var(--light-grey);
+
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form label {
+  color: var(--purple);
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.1rem;
+}
+
+form input {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+
+  border: 1px solid var(--purple);
+  border-radius: 1rem;
+}
+
+form button {
+  align-self: center;
 }

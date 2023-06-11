@@ -46,5 +46,39 @@
     <aside>
       <img src="./assets/rocket.svg" alt="Image of a rocket on launch" />
     </aside>
+    <form action="">
+      <div class="formField">
+        <label for="firstName">First Name:</label>
+        <input
+          type="text"
+          id="firstName"
+          placeholder="First Name"
+          name="firstName"
+          required
+        />
+      </div>
+      <div class="formField">
+        <label for="lastName">Last Name:</label>
+        <input
+          type="text"
+          id="lastName"
+          placeholder="Last Name"
+          name="lastName"
+          required
+        />
+      </div>
+      <div class="formField">
+        <label for="email">E-mail:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="example@example.com"
+          name="email"
+          pattern=".*@.*\.com"
+          required
+        />
+      </div>
+      <button>Send</button>
+    </form>
   </body>
 </html>
