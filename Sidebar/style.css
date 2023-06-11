@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --body-bg-color: rgb(220, 228, 227);
+  --green: rgb(24, 194, 156);
+  --light-green: rgb(142, 215, 198);
+  --light-grey: rgb(220, 228, 227);
+  --text-color: rgb(8, 66, 54);
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
