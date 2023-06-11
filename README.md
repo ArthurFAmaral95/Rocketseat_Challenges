@@ -85,3 +85,25 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/WMxNPZzs4xaqDWA89dbcAD/Theme-Switcher-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=302-12&t=XGdyJKau8v3qfKAV-0" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Countdown</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a page where you can see a countdown timer, open a form and subscribe to an event.</p>
+<ul>
+<li>Variables</li>
+<li>Absolute positioning</li>
+<li>Display flex</li>
+<li>Display grid</li>
+<li>Form</li>
+<li>Date constructor</li>
+<li>Math operations</li>
+<li>Event listenner</li>
+</ul>
+<p align="center">
+  <img alt="Countdown landing page" src="./challenges-pics/Countdown.png">
+</p>
+<p align="center">
+  <img alt="Countdown form" src="./challenges-pics/CountdownForm.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/QmyVeqicFdQvB9h6pso8PB/Countdown-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=0-1&t=tcs5sMeDsOMEoyc7-0" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
