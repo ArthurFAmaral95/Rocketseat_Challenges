@@ -18,3 +18,20 @@ html {
   width: 136.6rem;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  display: grid;
+  grid-template-areas: 'main aside';
+  gap: 8.2rem;
+
+  padding: 15rem 6rem 18.6rem 12.3rem;
+}
+
+main {
+  grid-area: main;
+  width: 49.4rem;
+}
+
+aside {
+  grid-area: aside;
+}
