@@ -37,6 +37,16 @@ body {
   grid-area: sidebar;
 
   padding-inline: 1.4rem;
+
+  background-color: var(--green);
+}
+
+#sidebar header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 2.7rem;
 }
 
 #userImg {
