@@ -41,13 +41,16 @@ body {
 #sidebar {
   grid-area: sidebar;
 
-  padding-inline: 1.4rem;
-
   background-color: var(--green);
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#sidebar .container,
+#sidebar footer {
+  padding-inline: 1.4rem;
 }
 
 #sidebar header {
@@ -88,6 +91,35 @@ body {
 #search {
   background-color: var(--light-green);
   border-radius: 1.2rem;
+}
+
+#sidebar footer {
+  background-color: var(--light-green);
+
+  padding-block: 0.8rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sidebar footer #user {
+  display: flex;
+  gap: 0.9rem;
+}
+
+#sidebar footer #user #userName,
+#sidebar footer #user #position {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+#sidebar footer #user #userName {
+  font-size: 1.5rem;
+}
+
+#sidebar footer #user #position {
+  font-size: 1.2rem;
 }
 
 #userImg {
