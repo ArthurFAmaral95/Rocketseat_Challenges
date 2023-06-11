@@ -44,6 +44,19 @@ body::after {
 main {
   grid-area: main;
   width: 49.4rem;
+
+  padding: 5.4rem 0 3.9rem;
+}
+
+main header h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 5.4rem;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: var(--purple);
+
+  padding-bottom: 1.9rem;
 }
 
 aside {
