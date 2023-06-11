@@ -142,3 +142,8 @@ body {
   line-height: 3.8rem;
   color: var(--text-color);
 }
+
+.hidden,
+#sidebar footer #user.hidden {
+  display: none;
+}
