@@ -59,6 +59,37 @@ main header h1 {
   padding-bottom: 1.9rem;
 }
 
+#countdown {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding-bottom: 1.6rem;
+}
+
+#countdown .time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#countdown .time .text {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.1rem;
+  color: var(--light-grey);
+
+  text-transform: capitalize;
+}
+
+#countdown .time .number {
+  font-size: 7.2rem;
+  font-weight: 400;
+  line-height: 10.8rem;
+
+  color: var(--black);
+}
+
 aside {
   grid-area: aside;
 }
