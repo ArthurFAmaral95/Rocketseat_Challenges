@@ -25,6 +25,8 @@ body {
   display: grid;
   grid-template-areas: 'sidebar dashboard';
   grid-template-columns: 25rem 1fr;
+
+  transition: grid-template-columns 0.5s;
 }
 
 #sidebar,
@@ -63,7 +65,7 @@ body {
 
 #sidebar header,
 .item {
-  padding-left: 1.3rem;
+  padding-inline: 1.3rem;
 }
 
 .menuItens {
@@ -86,6 +88,8 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2.25rem;
+
+  opacity: 1;
 }
 
 #search {
@@ -124,6 +128,7 @@ body {
 
 #userImg {
   width: 4.5rem;
+  height: 4.5rem;
   border-radius: 1.2rem;
 }
 
@@ -143,7 +148,46 @@ body {
   color: var(--text-color);
 }
 
-.hidden,
-#sidebar footer #user.hidden {
+#logOut {
+  padding: 0.85rem 0 0.85rem 1.4rem;
+}
+
+#logo,
+#sidebar footer #user {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.item span.hidden {
+  opacity: 0;
+}
+
+#logo.hidden,
+#sidebar footer #user.hidden,
+.item span.hidden {
+  opacity: 0;
+  width: 0;
+
+  transition: opacity 0.3s;
+}
+
+.item span.none {
   display: none;
+}
+
+#sidebar footer #user.hidden {
+  height: 0;
+}
+
+#sidebar footer #user.absolute {
+  position: absolute;
+}
+
+#sidebar footer #user.noText div {
+  display: none;
+}
+
+body.compact {
+  grid-template-columns: 7.8rem 1fr;
+  transition: grid-template-columns 0.5s;
 }
