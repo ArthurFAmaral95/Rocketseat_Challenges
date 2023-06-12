@@ -94,9 +94,11 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <li>Display flex</li>
 <li>Display grid</li>
 <li>Form</li>
+<li>Functions</li>
 <li>Date constructor</li>
 <li>Math operations</li>
 <li>Event listenner</li>
+<li>setInterval()</li>
 </ul>
 <p align="center">
   <img alt="Countdown landing page" src="./challenges-pics/Countdown.png">
@@ -105,5 +107,28 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
   <img alt="Countdown form" src="./challenges-pics/CountdownForm.png">
 </p>
 <p>Click <a href="https://www.figma.com/file/QmyVeqicFdQvB9h6pso8PB/Countdown-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=0-1&t=tcs5sMeDsOMEoyc7-0" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
+
+<h2>Sidebar</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a page where you can open and close a sidebar menu by clicking the menu button.</p>
+<ul>
+<li>Variables</li>
+<li>Absolute positioning</li>
+<li>Display flex</li>
+<li>Display grid</li>
+<li>Transition effects</li>
+<li>Functions</li>
+<li>Event listenner</li>
+<li>setTimeout()</li>
+<li>ClassList functions</li>
+</ul>
+<p align="center">
+  <img alt="Sidebar project: open sidebar" src="./challenges-pics/SidebarOpen.png">
+</p>
+<p align="center">
+  <img alt="Sidebar project: closed sidebar" src="./challenges-pics/SidebarClose.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/XpKYVpQ4HvdgZomdYyuzAM/Sidebar-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=1-2&t=1hcw07gpoPUUjZdF-0" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
