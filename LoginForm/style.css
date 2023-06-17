@@ -111,6 +111,12 @@ form {
   width: 33.5rem;
 }
 
+.form-field input#email:focus,
+.form-field input#password:focus {
+  border: 1px solid var(--primary-color);
+  outline: none;
+}
+
 .form-field input,
 .form-field input::placeholder {
   color: var(--placeholder-text);
@@ -126,8 +132,22 @@ form {
   background-origin: border-box;
 }
 
+.form-field input#email:focus {
+  background: url(./assets/mail-focus.svg) no-repeat;
+  background-position-x: 1.2rem;
+  background-position-y: 1.2rem;
+  background-origin: border-box;
+}
+
 .form-field input#password {
   background: url(./assets/lock.svg) no-repeat;
+  background-position-x: 1.2rem;
+  background-position-y: 1.2rem;
+  background-origin: border-box;
+}
+
+.form-field input#password:focus {
+  background: url(./assets/lock-focus.svg) no-repeat;
   background-position-x: 1.2rem;
   background-position-y: 1.2rem;
   background-origin: border-box;
@@ -160,8 +180,18 @@ form {
 }
 
 .form-field #checkbox input {
+  appearance: none;
+  -webkit-appearance: none;
   border: 1px solid var(--input-border);
   border-radius: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-field #checkbox input:checked {
+  background-color: var(--primary-color);
+  background-image: url(./assets/check.svg);
+  background-position: center;
 }
 
 .form-field #checkbox label {
