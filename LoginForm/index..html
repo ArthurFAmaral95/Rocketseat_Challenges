@@ -14,5 +14,57 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header>
+        <img src="./assets/logo.svg" alt="Logo" />
+      </header>
+      <form action="">
+        <div id="form-header">
+          <div id="form-title">
+            <img src="./assets/log-in.svg" alt="Log in icon" />
+            <h1>Log in</h1>
+          </div>
+          <div id="form-text">
+            <p>Type in your registered information</p>
+          </div>
+        </div>
+        <div class="form-field" id="e-mail">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            placeholder="Type here your e-mail"
+            name="email"
+            id="email"
+            pattern=".+@.+\.com"
+            title="example@example.com"
+            required
+          />
+        </div>
+        <div class="form-field" id="pass">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            minlength="8"
+            placeholder="Type here your password."
+            required
+          />
+        </div>
+        <div class="form-field" id="check-forgot">
+          <div id="checkbox">
+            <input type="checkbox" id="remindMe" name="remindMe" />
+            <label for="remindMe">Remind me</label>
+          </div>
+          <div id="forgot-password">
+            <a href="#">Forgot my password</a>
+          </div>
+        </div>
+        <button>Sign in</button>
+        <p>Do not have an account? <a href="#">Sign up</a></p>
+      </form>
+    </main>
+    <aside></aside>
+  </body>
 </html>

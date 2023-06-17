@@ -23,3 +23,9 @@ body {
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
+#password{
+  background-image: url(./assets/lock.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
