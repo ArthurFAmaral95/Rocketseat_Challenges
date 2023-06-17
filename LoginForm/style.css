@@ -251,3 +251,21 @@ aside {
   background: url(./assets/side-image.jpg) no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 950px) {
+  body {
+    display: block;
+  }
+
+  aside {
+    display: none;
+  }
+
+  form {
+    background-color: var(--background);
+  }
+
+  header {
+    padding-bottom: 3rem;
+  }
+}
