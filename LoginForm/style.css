@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --text-base: rgb(175, 182, 194);
+  --text-title: rgb(212, 204, 182);
+  --background: rgb(25, 24, 22);
+  --form-background: rgb(36, 34, 31);
+  --primary-color: rgb(255, 198, 50);
+}
+
+html,
+body {
+  width: 100%;
+}
+
+/* FONTS
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
