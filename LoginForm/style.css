@@ -146,6 +146,39 @@ form {
   cursor: pointer;
 }
 
+.form-field#check-forgot {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-field #checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-field #checkbox input {
+  border: 1px solid var(--input-border);
+  border-radius: 0.4rem;
+}
+
+.form-field #checkbox label {
+  color: var(--placeholder-text);
+  font: 1.6rem 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+
+.form-field #forgot-password a {
+  color: var(--primary-color);
+  font: 1.4rem 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 2.1rem;
+
+  text-decoration: none;
+}
+
 aside {
   grid-area: aside;
 
