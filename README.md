@@ -132,3 +132,26 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/XpKYVpQ4HvdgZomdYyuzAM/Sidebar-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=1-2&t=1hcw07gpoPUUjZdF-0" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Login Form</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a login page where the user can type e-mail and password to login.</p>
+<ul>
+<li>Form</li>
+<li>Variables</li>
+<li>Absolute positioning</li>
+<li>Display flex</li>
+<li>Display grid</li>
+<li> Arrow Functions</li>
+<li>Event listenner</li>
+<li>Responsive display</li>
+<li>Change input property</li>
+</ul>
+<p align="center">
+  <img alt="Login form project: desktop display" src="./challenges-pics/LoginForm.png">
+</p>
+<p align="center">
+  <img alt="Login form project: mobile display" src="./challenges-pics/LoginForm-mobile.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/JGif6EpVwrzgc0PsF9R21D/Login-Form-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=222-63&t=ptZfBzsM8lkbENcf-0" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
