@@ -35,6 +35,50 @@ body {
 
 main {
   grid-area: main;
+
+  padding: 4rem 0;
+}
+
+header {
+  padding: 0 0 12.6rem 4rem;
+}
+
+form {
+  background-color: var(--form-background);
+  width: fit-content;
+  margin-inline: auto;
+  padding: 5.5rem 12rem;
+  border-radius: 0.4rem;
+}
+
+#form-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  margin-bottom: 2.7rem;
+}
+
+#form-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#form-title h1 {
+  font: 2.4rem 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 3.6rem;
+
+  color: var(--text-title);
+}
+
+#form-text p {
+  font: 1.6rem 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 2.4rem;
+
+  color: var(--text-base);
 }
 
 aside {
