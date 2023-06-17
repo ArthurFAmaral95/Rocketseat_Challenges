@@ -199,6 +199,22 @@ button {
   cursor: pointer;
 }
 
+form p#signUp {
+  text-align: center;
+  color: var(--primary-color);
+  font: 1.4rem 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+form p#signUp a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font: 1.4rem 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 2.1rem;
+}
+
 aside {
   grid-area: aside;
 
