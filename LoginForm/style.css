@@ -12,6 +12,8 @@
   --background: rgb(25, 24, 22);
   --form-background: rgb(36, 34, 31);
   --primary-color: rgb(255, 198, 50);
+  --input-border: rgba(134, 134, 134, 1);
+  --placeholder-text: rgba(169, 175, 185, 1);
 }
 
 html,
@@ -81,14 +83,72 @@ form {
   color: var(--text-base);
 }
 
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  margin-bottom: 2rem;
+}
+
+.form-field label {
+  font: 1.6rem 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 2.4rem;
+
+  color: var(--text-base);
+}
+
+.form-field input#email,
+.form-field input#password {
+  padding: 1.2rem;
+  padding-left: calc(1.2rem + 2.5rem);
+  border: 1px solid var(--input-border);
+  border-radius: 0.4rem;
+  background-color: transparent;
+
+  width: 33.5rem;
+}
+
+.form-field input,
+.form-field input::placeholder {
+  color: var(--placeholder-text);
+  font: 1.4rem 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.form-field input#email {
+  background: url(./assets/mail.svg) no-repeat;
+  background-position-x: 1.2rem;
+  background-position-y: 1.2rem;
+  background-origin: border-box;
+}
+
+.form-field input#password {
+  background: url(./assets/lock.svg) no-repeat;
+  background-position-x: 1.2rem;
+  background-position-y: 1.2rem;
+  background-origin: border-box;
+}
+
+.form-field#pass {
+  position: relative;
+}
+
+.form-field#pass img {
+  width: 2rem;
+
+  position: absolute;
+  left: 30rem;
+  top: calc(1.2rem + 2.4rem + 0.4rem);
+
+  cursor: pointer;
+}
+
 aside {
   grid-area: aside;
 
   background: url(./assets/side-image.jpg) no-repeat;
   background-size: cover;
-}
-
-#password {
-  background: url(./assets/lock.svg) no-repeat;
-  background-size: contain;
 }
