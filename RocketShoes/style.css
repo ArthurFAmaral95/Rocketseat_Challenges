@@ -8,7 +8,7 @@
   font-size: 62.5%;
 
   --button: rgb(255, 0, 0);
-  --main-background: rgb(196, 196, 196);
+  --gallery-background: rgb(196, 196, 196);
   --background: rgb(229, 229, 229);
   --text: rgb(0, 0, 0);
   --footer: rgb(0, 0, 0);
@@ -22,6 +22,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+header nav ul li img {
+  cursor: pointer;
+}
+
 body {
   display: grid;
 
@@ -32,10 +45,48 @@ body {
 
   grid-template-columns: 37.5% 62.5%;
   grid-template-rows: 9rem 1fr 17rem;
+
+  background-color: var(--background);
 }
 
 header {
   grid-area: header;
+  margin: 3.9rem 6rem 0 6rem;
+  height: fit-content;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li span {
+  color: var(--text);
+
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+
+  cursor: pointer;
+}
+
+header nav ul li input {
+  padding: 1.4rem 0 0.8rem 4.2rem;
+  border: none;
+
+  background-image: url(./assets/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position-x: 1.3rem;
+  background-position-y: 1.4rem;
+}
+
+header nav ul li input,
+header nav ul li input::placeholder {
+  color: var(--text-description);
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
 }
 
 main {
@@ -44,12 +95,10 @@ main {
 
 aside {
   grid-area: aside;
+
+  background-color: var(--gallery-background);
 }
 
 footer {
   grid-area: footer;
-}
-
-h1 {
-  text-transform: capitalize;
 }
