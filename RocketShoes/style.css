@@ -34,6 +34,10 @@ img {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   display: grid;
 
@@ -168,4 +172,33 @@ aside .small-picture.selected {
 
 footer {
   grid-area: footer;
+
+  display: grid;
+  grid-template-columns: 25rem 4fr 2fr;
+}
+
+footer .social-links {
+  justify-content: space-evenly;
+}
+
+footer .social-links li a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  color: var(--text);
+
+  background-color: var(--background);
+}
+
+footer a {
+  background-color: var(--footer);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: white;
 }
