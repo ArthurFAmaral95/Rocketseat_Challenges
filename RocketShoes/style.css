@@ -177,6 +177,10 @@ footer {
   grid-template-columns: 25rem 4fr 2fr;
 }
 
+footer iframe {
+  width: 100%;
+}
+
 footer .social-links {
   justify-content: space-evenly;
 }
