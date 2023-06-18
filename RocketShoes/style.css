@@ -50,8 +50,12 @@ body {
 
 header {
   grid-area: header;
-  margin: 3.9rem 6rem 0 6rem;
-  height: fit-content;
+  margin-top: 3.9rem;
+  padding-inline: 6rem;
+
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
 header nav ul li span {
@@ -142,12 +146,24 @@ aside {
 
   position: absolute;
   right: 0;
-  z-index: -1;
 }
 
 aside #big-picture {
   align-self: center;
   width: 59.7rem;
+}
+
+aside #gallery {
+  justify-content: center;
+  gap: 3.8rem;
+}
+
+aside .small-picture img {
+  max-width: 100%;
+}
+
+aside .small-picture.selected {
+  border-bottom: solid 5px red;
 }
 
 footer {
