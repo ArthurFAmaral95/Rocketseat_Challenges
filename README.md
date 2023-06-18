@@ -141,7 +141,7 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <li>Absolute positioning</li>
 <li>Display flex</li>
 <li>Display grid</li>
-<li> Arrow Functions</li>
+<li>Arrow Functions</li>
 <li>Event listenner</li>
 <li>Responsive display</li>
 <li>Change input property</li>
@@ -153,5 +153,25 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
   <img alt="Login form project: mobile display" src="./challenges-pics/LoginForm-mobile.png">
 </p>
 <p>Click <a href="https://www.figma.com/file/JGif6EpVwrzgc0PsF9R21D/Login-Form-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=222-63&t=ptZfBzsM8lkbENcf-0" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
+
+<h2>Rocket Shoes</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create e-comerce page where the user can see an amazing shoe offer and click the to see it bigger.</p>
+<ul>
+<li>Variables</li>
+<li>Absolute positioning</li>
+<li>Display flex</li>
+<li>Display grid</li>
+<li>iframe</li>
+<li>Responsive display: Desktop, tablet and mobile.</li>
+<li>Arrow Functions</li>
+<li>Event listenner</li>
+<li>ForEach()</li>
+</ul>
+<p align="center">
+  <img alt="Rocket Shoes project: desktop display" src="./challenges-pics/RocketShoes.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/djTzJdtHNOuYnLj5aSHcML/RocketShoes-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=0-1&t=O7h0IuMfdzhZiO3A-0" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
