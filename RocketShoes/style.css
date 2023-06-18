@@ -24,10 +24,13 @@ body {
 
 ul {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 button,
-header nav ul li img {
+img {
   cursor: pointer;
 }
 
@@ -40,7 +43,7 @@ body {
     'footer footer';
 
   grid-template-columns: 37.5% 62.5%;
-  grid-template-rows: 9rem 1fr 17rem;
+  grid-template-rows: 9rem 82.4rem 17rem;
 
   background-color: var(--background);
 }
@@ -49,12 +52,6 @@ header {
   grid-area: header;
   margin: 3.9rem 6rem 0 6rem;
   height: fit-content;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 header nav ul li span {
@@ -135,6 +132,22 @@ aside {
   grid-area: aside;
 
   background-color: var(--gallery-background);
+
+  padding: 18rem 1.8rem 4rem 1.8rem;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 62.5%;
+
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+aside #big-picture {
+  align-self: center;
+  width: 59.7rem;
 }
 
 footer {
