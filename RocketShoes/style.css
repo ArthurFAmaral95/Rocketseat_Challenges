@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --button: rgb(255, 0, 0);
+  --main-background: rgb(196, 196, 196);
+  --background: rgb(229, 229, 229);
+  --text: rgb(0, 0, 0);
+  --footer: rgb(0, 0, 0);
+  --text-description: rgb(156, 150, 150);
+}
+
+html,
+body {
+  width: 100%;
+
+  font-family: 'Roboto', sans-serif;
+}
