@@ -22,10 +22,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-  text-transform: capitalize;
-}
-
 ul {
   list-style: none;
 }
@@ -91,6 +87,48 @@ header nav ul li input::placeholder {
 
 main {
   grid-area: main;
+
+  padding: 10.3rem 7.2rem 0 11.1rem;
+}
+
+main h1 {
+  text-transform: capitalize;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--text);
+
+  padding-bottom: 2.1rem;
+}
+
+main p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  color: var(--text-description);
+
+  padding-bottom: 2.1rem;
+}
+
+main h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.7rem;
+  color: var(--text);
+
+  padding-bottom: 3rem;
+}
+
+main button {
+  padding: 3.3rem 8rem;
+  border: none;
+  background-color: var(--button);
+
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  text-transform: uppercase;
 }
 
 aside {
