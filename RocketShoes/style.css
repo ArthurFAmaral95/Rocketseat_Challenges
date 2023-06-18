@@ -294,3 +294,57 @@ footer a {
     background-color: transparent;
   }
 }
+
+@media (max-width: 567px) {
+  body {
+    min-width: 425px;
+  }
+
+  header {
+    padding-inline: 3rem;
+  }
+
+  header nav ul li span {
+    font-size: 1.4rem;
+  }
+
+  main {
+    padding: 3rem;
+  }
+
+  main button {
+    width: 100%;
+  }
+
+  aside #big-picture {
+    display: none;
+  }
+
+  aside #gallery {
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+  }
+
+  aside .small-picture,
+  aside .small-picture img {
+    width: 15rem;
+  }
+
+  aside .small-picture p {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  footer iframe {
+    width: 40rem;
+    height: 31.5rem;
+    align-self: center;
+  }
+
+  footer .social-links {
+    display: initial;
+  }
+}
