@@ -141,12 +141,13 @@ aside {
 
   background-color: var(--gallery-background);
 
-  padding: 18rem 1.8rem 4rem 1.8rem;
+  padding: 18rem 1.8rem 0 1.8rem;
 
   display: flex;
   flex-direction: column;
 
   width: 62.5%;
+  height: 91.4rem;
 
   position: absolute;
   right: 0;
@@ -155,15 +156,19 @@ aside {
 aside #big-picture {
   align-self: center;
   width: 59.7rem;
+  height: 51rem;
 }
 
 aside #gallery {
   justify-content: center;
   gap: 3.8rem;
+  margin-top: 2rem;
 }
 
 aside .small-picture img {
   max-width: 100%;
+  width: 25rem;
+  max-height: 18.3rem;
 }
 
 aside .small-picture p {
@@ -191,6 +196,7 @@ footer {
 
 footer iframe {
   width: 100%;
+  padding-top: 2rem;
 }
 
 footer .social-links {
