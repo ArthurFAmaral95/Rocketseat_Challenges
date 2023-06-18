@@ -22,6 +22,34 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1{
+body {
+  display: grid;
+
+  grid-template-areas:
+    'header header'
+    'main aside'
+    'footer footer';
+
+  grid-template-columns: 37.5% 62.5%;
+  grid-template-rows: 9rem 1fr 17rem;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
+h1 {
   text-transform: capitalize;
 }
