@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --purple-bg: rgb(41, 7, 65);
+  --dark-bg: rgb(23, 0, 39);
+  --button-bg: rgb(158, 109, 194);
+  --white: rgb(255, 255, 255);
+  --light-purple: rgb(251, 246, 255);
+  --green: rgb(79, 255, 75);
+}
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+html,
+body {
+  width: 100%;
+}
