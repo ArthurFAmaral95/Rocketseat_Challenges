@@ -175,3 +175,19 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/djTzJdtHNOuYnLj5aSHcML/RocketShoes-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=0-1&t=O7h0IuMfdzhZiO3A-0" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Rocket Blog</h2>
+<p>On this challenge we use HTML and CSS to create a blog page.</p>
+<ul>
+<li>Variables</li>
+<li>Absolute positioning</li>
+<li>Display flex</li>
+<li>Transition</li>
+<li>Pseudo selectors</li>
+</ul>
+<p align="center">
+  <img alt="Rocket Blog project" src="./challenges-pics/RocketBlog.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/rbs2gY9kzlsojXuyyFs367/RocketBlog-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=312-152&mode=design&t=afl17qb79SSaH1eA-0" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
