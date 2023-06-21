@@ -28,7 +28,7 @@ body {
 body::before {
   content: '';
   width: 100%;
-  height: 58.8rem;
+  height: 58.9rem;
   background-color: var(--purple-bg);
   display: block;
   position: absolute;
