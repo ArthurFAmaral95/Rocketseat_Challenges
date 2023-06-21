@@ -180,4 +180,41 @@ main section#home .container div {
 
 #highlights {
   padding-top: 6.4rem;
+  gap: 13.1rem;
+}
+
+#highlights .container img,
+#carrocel .container img {
+  margin-bottom: 1.6rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.post .date {
+  color: black;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.post h3 {
+  color: var(--purple-bg);
+  font: 2.4rem 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+
+.post .text {
+  color: black;
+  font: 1.6rem 'Roboto', sans-serif;
+  line-height: 2.4rem;
+}
+
+#highlights .container:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 4.9rem;
 }
