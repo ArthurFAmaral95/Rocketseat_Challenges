@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --backgrond: rgb(0, 0, 0);
+  --text-color: rgb(255, 255, 255);
+  --button: rgb(130, 87, 229);
+  --border: rgb(41, 41, 46);
+  --border-menu-mobile: rgb(168, 168, 179);
+  --text-color-menu-mobile: rgb(225, 225, 230);
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
