@@ -31,14 +31,20 @@ body {
   background-position: center;
 
   padding: 3.7rem 2.5rem 0 2.5rem;
+
+  position: relative;
 }
 
 header {
+  margin-bottom: 8.85rem;
+}
+
+header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin-bottom: 8.85rem;
+  padding-bottom: 2.6rem;
 }
 
 header img {
@@ -51,6 +57,33 @@ header img.hidden {
 
 header nav.hidden {
   display: none;
+}
+
+header nav {
+  height: calc(92.6rem - 9.55rem);
+  width: 42.8rem;
+
+  background-color: black;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+
+header nav ul li {
+  color: var(--text-color-menu-mobile);
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  list-style: none;
+
+  padding: 1.5rem 0 1.5rem 2.5rem;
+
+  border-bottom: solid 1px var(--border);
+}
+
+header nav ul li:nth-child(1) {
+  border-top: solid 1px var(--border);
 }
 
 main img {
