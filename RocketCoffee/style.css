@@ -37,6 +37,8 @@ body {
 
 header {
   margin-bottom: 8.85rem;
+
+  /*position: fixed;*/
 }
 
 header div {
@@ -87,13 +89,35 @@ header nav ul li {
 
   list-style: none;
 
-  padding: 1.5rem 0 1.5rem 2.5rem;
-
   border-bottom: solid 1px var(--border);
+
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  height: 5.6rem;
 }
 
 header nav ul li:nth-child(1) {
   border-top: solid 1px var(--border);
+}
+
+header nav ul li span {
+  display: block;
+
+  width: 0.5rem;
+  height: 0;
+
+  transition: height 0.3s;
+}
+
+header nav ul li:hover span {
+  display: block;
+
+  width: 0.5rem;
+  height: 5.6rem;
+  background-color: var(--button);
+
+  transition: height 0.3s;
 }
 
 main img {
