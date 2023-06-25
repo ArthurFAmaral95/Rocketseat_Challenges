@@ -23,7 +23,7 @@ body {
 body {
   font-family: 'Manrope', sans-serif;
   background-color: black;
-  width: 42.8rem;
+  width: min(42.8rem, 100%);
   margin-inline: auto;
 
   background-image: url(./assets/blur-mobile.png);
@@ -56,7 +56,11 @@ header img.hidden {
 }
 
 header nav.hidden {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(100%);
+  transition: all 0.3s;
 }
 
 header nav {
@@ -68,6 +72,12 @@ header nav {
   position: absolute;
   z-index: 1;
   left: 0;
+
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+  transition: all 0.3s;
 }
 
 header nav ul li {
