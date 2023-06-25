@@ -23,4 +23,36 @@ body {
 body {
   font-family: 'Manrope', sans-serif;
   background-color: black;
+  width: 42.8rem;
+  margin-inline: auto;
+
+  background-image: url(./assets/blur-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 3.7rem 2.5rem 0 2.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 8.85rem;
+}
+
+header img {
+  cursor: pointer;
+}
+
+header img.hidden {
+  display: none;
+}
+
+header nav.hidden {
+  display: none;
+}
+
+main img {
+  max-width: 100%;
 }
