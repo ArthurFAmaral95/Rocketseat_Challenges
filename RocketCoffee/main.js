@@ -6,6 +6,7 @@ function openCloseMenu() {
   nav.classList.toggle('hidden')
   openMenu.classList.toggle('hidden')
   closeMenu.classList.toggle('hidden')
+  document.body.classList.toggle('menu')
 }
 
 openMenu.addEventListener('click', openCloseMenu)

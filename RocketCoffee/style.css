@@ -39,17 +39,20 @@ body {
 }
 
 header {
-  margin-bottom: 8.85rem;
+  position: fixed;
+  top: 0;
+  left: calc(50% - 42.8rem / 2);
+  padding-block: 3.7rem;
 
-  /*position: fixed;*/
+  background-color: var(--backgrond);
+  width: 42.8rem;
+  height: 5.85rem;
 }
 
 header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding-bottom: 2.6rem;
 }
 
 header img {
@@ -75,8 +78,9 @@ header nav {
   background-color: black;
 
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   left: 0;
+  top: 9.85rem;
 
   opacity: 1;
   visibility: visible;
@@ -127,6 +131,17 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding-top: calc(8.85rem + 2.6rem + 5.9rem);
+}
+
+body.menu {
+  background-image: none;
+}
+
+body.menu main {
+  visibility: hidden;
+  background-image: none;
 }
 
 main h1 {
@@ -187,4 +202,5 @@ main #cups {
   max-width: 100%;
   position: absolute;
   bottom: 0;
+  z-index: 0;
 }
