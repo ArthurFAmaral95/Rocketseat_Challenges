@@ -68,7 +68,6 @@ header nav.hidden {
   visibility: hidden;
 
   transform: translateX(100%);
-  transition: all 0.3s;
 }
 
 header nav {
@@ -86,7 +85,6 @@ header nav {
   visibility: visible;
 
   transform: translateX(0);
-  transition: all 0.3s;
 }
 
 header nav ul li {
@@ -102,6 +100,8 @@ header nav ul li {
   gap: 2.5rem;
   align-items: center;
   height: 5.6rem;
+
+  cursor: pointer;
 }
 
 header nav ul li:nth-child(1) {
@@ -154,7 +154,8 @@ main h1 {
   margin-bottom: 8.8rem;
 }
 
-main button {
+main button,
+header button.bigScreen {
   padding: 1rem 3rem;
 
   border-radius: 6px;
@@ -174,6 +175,10 @@ main button {
   cursor: pointer;
 
   margin-bottom: 10.8rem;
+}
+
+header button.bigScreen {
+  display: none;
 }
 
 main div {
@@ -203,4 +208,73 @@ main #cups {
   position: absolute;
   bottom: 0;
   z-index: 0;
+}
+
+@media (min-width: 1024px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/blur-1.png), url(./assets/blur-2.png);
+    background-size: cover;
+    backdrop-filter: blur(200px);
+  }
+
+  header,
+  main {
+    width: 80%;
+    margin-inline: auto;
+  }
+
+  header {
+    position: initial;
+    background-color: transparent;
+    padding-block: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #openMenu,
+  #closeMenu {
+    display: none;
+  }
+
+  header nav,
+  header nav.hidden {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: none;
+
+    position: initial;
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  header nav ul,
+  header nav.hidden ul {
+    display: flex;
+    gap: 3.24rem;
+  }
+
+  header nav ul li,
+  header nav.hidden ul li {
+    border: none;
+  }
+
+  header nav ul li span,
+  header nav ul li:hover span {
+    display: none;
+  }
+
+  header button.bigScreen {
+    display: initial;
+    margin-bottom: 0;
+  }
+
+  main button.smallScreen {
+    display: none;
+  }
 }
