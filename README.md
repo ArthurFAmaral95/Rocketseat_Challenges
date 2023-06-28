@@ -206,9 +206,9 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p align="center">
   <img alt="Rocket Coffee project: desktop layout" src="./challenges-pics/RocketCoffeeDesktop.png">
 </p>
-<p float="left">
-  <img alt="Rocket Coffee project: mobile layout" src="./challenges-pics/RocketCoffeeMobile.png" width="200">
-  <img alt="Rocket Coffee project: menu mobile layout" src="./challenges-pics/RocketCoffeeMenuMobile.png" width="200">
+<p align="center">
+  <img alt="Rocket Coffee project: mobile layout" src="./challenges-pics/RocketCoffeeMobile.png" width="300">
+  <img alt="Rocket Coffee project: menu mobile layout" src="./challenges-pics/RocketCoffeeMenuMobile.png" width="300">
 </p>
 <p>Click <a href="https://www.figma.com/file/T239BVEBnwjO8aZ0QfZ183/RocketCoffee-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=317%3A228&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
 
