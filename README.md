@@ -191,3 +191,25 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/rbs2gY9kzlsojXuyyFs367/RocketBlog-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?type=design&node-id=312-152&mode=design&t=afl17qb79SSaH1eA-0" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Rocket Coffee</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a coffee shop landing page.</p>
+<ul>
+<li>Variables</li>
+<li>Absolute positioning</li>
+<li>Display flex</li>
+<li>Pseudo selectors</li>
+<li>Responsive design</li>
+<li>Functions</li>
+<li>Event listeners</li>
+</ul>
+<p align="center">
+  <img alt="Rocket Coffee project: desktop layout" src="./challenges-pics/RocketCoffeeDesktop.png">
+</p>
+<p float="left">
+  <img alt="Rocket Coffee project: mobile layout" src="./challenges-pics/RocketCoffeeMobile.png" width="200">
+  <img alt="Rocket Coffee project: menu mobile layout" src="./challenges-pics/RocketCoffeeMenuMobile.png" width="200">
+</p>
+<p>Click <a href="https://www.figma.com/file/T239BVEBnwjO8aZ0QfZ183/RocketCoffee-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=317%3A228&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
