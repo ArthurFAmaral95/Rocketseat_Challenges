@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --body-background: rgb(14, 14, 14);
+  --color-logo: rgb(255, 91, 80);
+  --card-color: rgb(37, 37, 37);
+  --text-color: rgb(255, 255, 255);
+  --subtitle-color: rgb(90, 87, 87);
+  --black-text: rgb(0, 0, 0);
+  --color-input: rgb(13, 13, 13);
+}
+
+html,
+body {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
