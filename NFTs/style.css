@@ -62,3 +62,50 @@ header button {
 
   border: none;
 }
+
+main {
+  padding-top: 9.7rem;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  gap: 4rem;
+
+  grid-template-columns: 31% 47% 1fr;
+
+  margin-bottom: 10rem;
+}
+
+.container .content p {
+  margin-bottom: 5.5rem;
+  margin-top: 0.1rem;
+
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.container .content div {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.6rem;
+}
+
+.container .content div p {
+  margin-bottom: 0;
+}
+
+.container .content span {
+  font-weight: 700;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h1 span {
+  color: var(--color-logo);
+}
