@@ -21,3 +21,44 @@ body {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
+
+body {
+  padding: 6rem 8.5rem;
+
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+
+header nav ul li {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+header button {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 1.4rem 2.2rem;
+
+  background-color: var(--text-color);
+
+  border: none;
+}
