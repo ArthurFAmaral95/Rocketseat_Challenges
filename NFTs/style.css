@@ -18,18 +18,17 @@
 
 html,
 body {
-  width: 100%;
   font-family: 'Montserrat', sans-serif;
+  width: 144rem;
+
+  margin-inline: auto;
 }
 
 body {
-  width: 144rem;
   padding: 6rem 8.5rem;
-  margin-inline: auto;
 
   background-image: url(./assets/background.png);
   background-repeat: no-repeat;
-  background-position: top;
 
   background-color: var(--body-background);
 }
