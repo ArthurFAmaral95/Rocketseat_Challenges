@@ -27,10 +27,17 @@ body {
 
   background-image: url(./assets/background.png);
   background-repeat: no-repeat;
+
+  background-color: var(--body-background);
 }
 
 ul li {
   list-style: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
 
 header {
@@ -108,4 +115,16 @@ h1 {
 
 h1 span {
   color: var(--color-logo);
+}
+
+.gallery {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery img {
+  margin-bottom: 4.1rem;
+  margin-inline: 0.8rem;
+  border: 1px solid var(--text-color);
 }
