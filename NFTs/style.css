@@ -25,12 +25,17 @@ body {
 }
 
 body {
-  padding: 6rem 8.5rem;
+  padding-top: 6rem;
 
   background-image: url(./assets/background.png);
   background-repeat: no-repeat;
 
   background-color: var(--body-background);
+}
+
+header,
+#home {
+  padding-inline: 8.5rem;
 }
 
 ul li {
@@ -94,7 +99,11 @@ main {
 .container .content p {
   margin-bottom: 5.5rem;
   margin-top: 0.1rem;
+}
 
+.container .content p,
+#info .posts .post p,
+#info .posts .post a {
   color: var(--text-color);
   font-size: 1.8rem;
   font-weight: 400;
@@ -120,7 +129,8 @@ h1 {
   font-weight: 700;
 }
 
-h1 span {
+h1 span,
+#info .posts .post p a {
   color: var(--color-logo);
 }
 
@@ -131,7 +141,69 @@ h1 span {
 }
 
 .gallery img {
-  margin-bottom: 4.1rem;
   margin-inline: 0.8rem;
   border: 1px solid var(--text-color);
+}
+
+.gallery img:nth-child(-n + 4) {
+  margin-bottom: 4.1rem;
+}
+
+#info {
+  display: grid;
+  grid-template-areas:
+    'aside posts'
+    'aside image';
+  grid-template-columns: 19% 81%;
+  grid-template-rows: 55% 45%;
+
+  height: 66rem;
+}
+
+#info .aside {
+  grid-area: aside;
+
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+
+  align-items: center;
+  justify-content: left;
+
+  padding: 13.36rem 0 0 8.9rem;
+
+  border-bottom: 0.4rem solid var(--subtitle-color);
+  border-right: 0.4rem solid var(--subtitle-color);
+}
+
+#info .aside p {
+  font-weight: 700;
+  color: var(--subtitle-color);
+  font-size: 2rem;
+  text-align: center;
+  align-self: flex-start;
+}
+
+#info .aside p span {
+  color: var(--text-color);
+  font-size: 5rem;
+}
+
+#info .posts {
+  grid-area: posts;
+
+  padding: 7.96rem calc(13.8rem - 8.5rem) 7.9rem 6.8rem;
+
+  display: flex;
+  gap: 12.6rem;
+}
+
+#info .posts .post p {
+  margin-bottom: 6.3rem;
+}
+
+#info .image {
+  grid-area: image;
+
+  background-image: url(./assets/banner.png);
 }
