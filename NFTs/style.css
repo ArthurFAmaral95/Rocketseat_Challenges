@@ -216,6 +216,11 @@ h2 {
   margin-bottom: 6.3rem;
 }
 
+#info .posts .post p span {
+  color: var(--color-logo);
+  text-decoration: underline;
+}
+
 #info .image {
   grid-area: image;
 
