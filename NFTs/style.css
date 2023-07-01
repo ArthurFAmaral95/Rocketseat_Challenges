@@ -34,7 +34,8 @@ body {
 }
 
 header,
-#home {
+#home,
+#popular {
   padding-inline: 8.5rem;
 }
 
@@ -43,7 +44,8 @@ ul li {
   cursor: pointer;
 }
 
-button {
+button,
+.astronaut div img {
   cursor: pointer;
 }
 
@@ -130,7 +132,8 @@ h1 {
 }
 
 h1 span,
-#info .posts .post p a {
+#info .posts .post p a,
+h2 span {
   color: var(--color-logo);
 }
 
@@ -184,7 +187,8 @@ h1 span,
   align-self: flex-start;
 }
 
-#info .aside p span {
+#info .aside p span,
+h2 {
   color: var(--text-color);
   font-size: 5rem;
 }
@@ -206,4 +210,62 @@ h1 span,
   grid-area: image;
 
   background-image: url(./assets/banner.png);
+}
+
+#popular {
+  padding-block: 15rem;
+}
+
+.astronauts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding-top: 17rem;
+}
+
+.astronaut:nth-child(odd) {
+  border-right: 1px solid var(--subtitle-color);
+
+  padding-right: 27.7rem;
+}
+
+.astronaut:nth-child(even) {
+  padding-left: 27.7rem;
+}
+
+.astronaut:nth-child(-n + 2) {
+  padding-bottom: 6.3rem;
+}
+
+.astronaut div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.astronaut div:nth-child(1) {
+  margin-bottom: 4.4rem;
+}
+
+.astronaut div:nth-child(2) {
+  margin-bottom: 2.6rem;
+}
+
+.astronaut h3 {
+  color: var(--text-color);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.astronaut span {
+  color: var(--subtitle-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.astronaut span:last-child {
+  color: var(--color-logo);
+}
+.astronautPic {
+  min-width: 100%;
 }
