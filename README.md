@@ -213,3 +213,19 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/T239BVEBnwjO8aZ0QfZ183/RocketCoffee-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=317%3A228&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Rocket NFT</h2>
+<p>On this challenge we use HTML and CSS to create a NFT webpage.</p>
+<ul>
+<li>Variables</li>
+<li>Display grid</li>
+<li>Display flex</li>
+<li>Hover efects</li>
+<li>Pseudo selectors</li>
+</ul>
+<p align="center">
+  <img alt="Rocket NFTs project" src="./challenges-pics/RocketNFTs.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/QeML4rqJpWelX6QZXS1eVP/Rocket-NFTs-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=1%3A3&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
