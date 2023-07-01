@@ -35,7 +35,8 @@ body {
 
 header,
 #home,
-#popular {
+#popular,
+#bestArtists {
   padding-inline: 8.5rem;
 }
 
@@ -133,7 +134,8 @@ h1 {
 
 h1 span,
 #info .posts .post p a,
-h2 span {
+h2 span,
+.artist p span {
   color: var(--color-logo);
 }
 
@@ -179,7 +181,8 @@ h2 span {
   border-right: 0.4rem solid var(--subtitle-color);
 }
 
-#info .aside p {
+#info .aside p,
+.artist p {
   font-weight: 700;
   color: var(--subtitle-color);
   font-size: 2rem;
@@ -268,4 +271,65 @@ h2 {
 }
 .astronautPic {
   min-width: 100%;
+}
+
+#bestArtists {
+  margin-bottom: 15.6rem;
+}
+
+#bestArtists h2 {
+  text-align: center;
+
+  margin-bottom: 12rem;
+}
+
+.artists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 11.1rem;
+}
+
+.artist {
+  background-color: var(--card-color);
+  padding: 2.5rem 3.2rem;
+
+  display: flex;
+  gap: 4rem;
+
+  cursor: pointer;
+
+  transition: background 0.3s;
+}
+
+.artist p {
+  font-weight: 500;
+  text-align: left;
+  align-self: center;
+  line-height: 3rem;
+}
+
+.artist:hover {
+  background-color: var(--color-logo);
+
+  transition: background 0.3s;
+}
+
+.artist:hover p,
+.artist:hover p span {
+  color: var(--text-color);
+}
+
+.allArtists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+
+  margin-top: 6.3rem;
+
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 400;
+
+  cursor: pointer;
 }
