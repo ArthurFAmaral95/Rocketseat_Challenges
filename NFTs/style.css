@@ -36,13 +36,18 @@ body {
 header,
 #home,
 #popular,
-#bestArtists {
+#bestArtists,
+footer {
   padding-inline: 8.5rem;
 }
 
 ul li {
   list-style: none;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 button,
@@ -134,8 +139,10 @@ h1 {
 
 h1 span,
 #info .posts .post p a,
+.astronaut span:last-child,
 h2 span,
-.artist p span {
+.artist p span,
+h3 span {
   color: var(--color-logo);
 }
 
@@ -227,7 +234,7 @@ h2 {
 }
 
 .astronaut:nth-child(odd) {
-  border-right: 1px solid var(--subtitle-color);
+  border-right: 0.1rem solid var(--subtitle-color);
 
   padding-right: 27.7rem;
 }
@@ -254,21 +261,25 @@ h2 {
   margin-bottom: 2.6rem;
 }
 
-.astronaut h3 {
+.astronaut h4,
+h3 {
   color: var(--text-color);
   font-size: 3rem;
   font-weight: 500;
 }
 
-.astronaut span {
+.astronaut span,
+.left input::placeholder,
+.left button,
+.right ul li,
+.right ul li a,
+.right ul li:nth-child(1),
+.bottom a {
   color: var(--subtitle-color);
   font-size: 2rem;
   font-weight: 700;
 }
 
-.astronaut span:last-child {
-  color: var(--color-logo);
-}
 .astronautPic {
   min-width: 100%;
 }
@@ -332,4 +343,110 @@ h2 {
   font-weight: 400;
 
   cursor: pointer;
+}
+
+footer {
+  background-color: var(--card-color);
+
+  display: grid;
+  grid-template-areas:
+    'footerTop footerTop'
+    'footerLeft footerRight'
+    'footerBottom footerBottom';
+  grid-template-columns: 38% 62%;
+}
+
+.top {
+  grid-area: footerTop;
+
+  padding-block: 10.2rem 7.7rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 0.1rem solid var(--subtitle-color);
+}
+
+.top a {
+  padding: 2.9rem;
+  background-color: var(--color-logo);
+}
+
+.left {
+  grid-area: footerLeft;
+
+  padding-block: 6.7rem 8.2rem;
+
+  border-right: 0.1rem solid var(--subtitle-color);
+}
+
+.left form {
+  display: flex;
+  align-items: center;
+
+  margin-top: 2.5rem;
+}
+
+.left input {
+  background-color: var(--color-input);
+
+  width: 28rem;
+}
+
+.left input::placeholder,
+.right ul li,
+.right ul li a,
+.bottom a {
+  font-weight: 400;
+}
+
+.left input,
+.left button {
+  padding-inline: 2.5rem;
+  border: none;
+
+  height: 6.6rem;
+}
+
+.left button {
+  background-color: var(--text-color);
+
+  color: var(--black-text);
+}
+.right {
+  grid-area: footerRight;
+
+  padding: 7.5rem calc(19rem - 8.5rem) 5.3rem 12.2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.right ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right ul li:nth-child(1) {
+  color: var(--text-color);
+}
+
+.bottom {
+  grid-area: footerBottom;
+
+  padding-block: 8rem 6.1rem;
+
+  border-top: 0.1rem solid var(--subtitle-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom .socialLinks {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
 }
