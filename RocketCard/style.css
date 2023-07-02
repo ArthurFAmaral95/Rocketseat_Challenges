@@ -156,8 +156,6 @@ ul li {
   height: 69.3rem;
 
   border-radius: 5rem;
-
-  background-color: var(--bg);
 }
 
 .buttons {
@@ -191,7 +189,7 @@ ul li {
   transition: background 0.2s;
 }
 
-.buttons button:hover {
+.buttons button:active {
   background-color: var(--img-profile);
 
   transition: background 0.2s;
