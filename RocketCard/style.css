@@ -18,8 +18,41 @@
 html,
 body {
   width: 100%;
+}
 
+body {
   font-family: 'Prompt', sans-serif;
 
   background-color: var(--bg-card);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  padding-block: 10.6rem 14.1rem;
+}
+
+.card {
+  border-radius: 5rem;
+
+  background-color: var(--bg-card);
+
+  width: 40.7rem;
+  height: 64.4rem;
+  margin-inline: auto 3rem;
+
+  position: relative;
+}
+
+.bgCard {
+  position: absolute;
+  z-index: -1;
+  right: calc(50% + 1.5rem);
+
+  width: 43.8rem;
+  height: 69.3rem;
+
+  border-radius: 5rem;
+
+  background-color: blue;
 }
