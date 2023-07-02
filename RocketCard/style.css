@@ -7,12 +7,12 @@
 :root {
   font-size: 62.5%;
 
-  --bg: hsl(0, 0%, 0%);
-  --bg-card: hsl(216, 26%, 7%);
-  --text: hsl(0, 0%, 95%);
-  --img-profile: hsl(258, 73%, 62%);
-  --buttons: hsl(0, 0%, 100%);
-  --border-button: hsl(0, 0%, 10%);
+  --bg: rgb(0, 0, 0);
+  --bg-card: rgb(13, 17, 22);
+  --text: rgb(242, 242, 242);
+  --img-profile: rgb(130, 87, 229);
+  --buttons: rgb(255, 255, 255);
+  --border-button: rgb(26, 26, 26);
 }
 
 html,
@@ -20,4 +20,6 @@ body {
   width: 100%;
 
   font-family: 'Prompt', sans-serif;
+
+  background-color: var(--bg-card);
 }
