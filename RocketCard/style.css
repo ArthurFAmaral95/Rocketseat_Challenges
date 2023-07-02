@@ -17,7 +17,8 @@
 
 html,
 body {
-  width: 100%;
+  width: 100rem;
+  margin-inline: auto;
 }
 
 body {
@@ -136,7 +137,9 @@ ul li {
   height: 3.4rem;
 }
 
-.card footer span {
+.card footer span,
+.buttons p,
+.buttons button {
   color: var(--buttons);
   font-weight: 400;
   font-size: 2rem;
@@ -146,7 +149,8 @@ ul li {
 .bgCard {
   position: absolute;
   z-index: -1;
-  right: calc(50% + 1.5rem);
+  left: -1.5rem;
+  bottom: -2.5rem;
 
   width: 43.8rem;
   height: 69.3rem;
@@ -154,4 +158,41 @@ ul li {
   border-radius: 5rem;
 
   background-color: var(--bg);
+}
+
+.buttons {
+  margin-left: 15rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.3rem;
+  align-items: center;
+}
+
+.buttons p {
+  text-transform: capitalize;
+}
+
+.buttons button {
+  background-color: var(--bg);
+
+  border: 2px solid var(--border-button);
+  border-radius: 1.5rem;
+
+  padding: 2rem 4.5rem;
+
+  width: 70%;
+
+  font-size: 1.5rem;
+  text-transform: capitalize;
+
+  cursor: pointer;
+
+  transition: background 0.2s;
+}
+
+.buttons button:hover {
+  background-color: var(--img-profile);
+
+  transition: background 0.2s;
 }
