@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg: hsl(0, 0%, 0%);
+  --bg-card: hsl(216, 26%, 7%);
+  --text: hsl(0, 0%, 95%);
+  --img-profile: hsl(258, 73%, 62%);
+  --buttons: hsl(0, 0%, 100%);
+  --border-button: hsl(0, 0%, 10%);
+}
+
+html,
+body {
+  width: 100%;
+
+  font-family: 'Prompt', sans-serif;
+}
