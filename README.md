@@ -229,3 +229,24 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/QeML4rqJpWelX6QZXS1eVP/Rocket-NFTs-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=1%3A3&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Rocket Card</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a personal card with GitHub information and buttons to chance card color and download card.</p>
+<ul>
+<li>Variables</li>
+<li>Display grid</li>
+<li>Display flex</li>
+<li>Pseudo selectors</li>
+<li>Absolute positioning</li>
+<li>GitHub API</li>
+<li>Functions</li>
+<li>Fetch()</li>
+<li>Event Listeners</li>
+<li>forEach()</li>
+</ul>
+<p align="center">
+  <img alt="Rocket Card project" src="./challenges-pics/RocketCard.png">
+</p>
+<p>Click <a href="https://www.figma.com/file/4ZO5jbwxdlSKZZZr12uzYl/Rocketcard-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=501%3A6&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
+
+<hr>
