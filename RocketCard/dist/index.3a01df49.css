@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #000;
+  --bg-card: #0d1116;
+  --text: #f2f2f2;
+  --img-profile: #8257e5;
+  --buttons: #fff;
+  --border-button: #1a1a1a;
+  font-size: 62.5%;
+}
+
+html, body {
+  width: 100rem;
+  margin-inline: auto;
+}
+
+body {
+  background-color: var(--bg-card);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-block: 10.6rem 14.1rem;
+  font-family: Prompt, sans-serif;
+  display: grid;
+}
+
+ul li {
+  list-style: none;
+}
+
+.logo {
+  width: 5.54rem;
+}
+
+.card {
+  background-color: var(--bg-card);
+  border-radius: 5rem;
+  width: 40.7rem;
+  height: 64.4rem;
+  margin-inline: auto 3rem;
+  position: relative;
+}
+
+.card header {
+  align-items: center;
+  gap: 2rem;
+  padding-top: 3.78rem;
+  padding-left: 3.36rem;
+  display: flex;
+}
+
+.card header .logo {
+  border: 1px solid var(--text);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+#userLogin {
+  color: var(--buttons);
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.frame {
+  width: 33.1rem;
+  height: 41.8rem;
+  padding-top: 2rem;
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  overflow: hidden;
+}
+
+#avatar {
+  border: 1rem solid var(--img-profile);
+  border-radius: 50%;
+}
+
+.info {
+  background: linear-gradient(#000 3.65%, #464545b8 53.65%, #3e38386b 100%);
+  border-radius: 5rem;
+  flex-direction: column;
+  gap: .81rem;
+  padding: 2rem 1rem 2rem 2rem;
+  display: flex;
+  position: absolute;
+  top: 35.3rem;
+  left: 2.1rem;
+}
+
+.info li {
+  color: var(--buttons);
+  align-items: center;
+  gap: .9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: flex;
+}
+
+.card footer {
+  align-items: center;
+  gap: 1.1rem;
+  display: flex;
+  position: absolute;
+  bottom: 2.8rem;
+  right: 2rem;
+}
+
+.card footer img {
+  width: 2.8rem;
+  height: 3.4rem;
+}
+
+.card footer span, .buttons p, .buttons button {
+  color: var(--buttons);
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.bgCard {
+  z-index: -1;
+  border-radius: 5rem;
+  width: 43.8rem;
+  height: 69.3rem;
+  position: absolute;
+  bottom: -2.5rem;
+  left: -1.5rem;
+}
+
+.buttons {
+  flex-direction: column;
+  align-items: center;
+  gap: 3.3rem;
+  margin-left: 15rem;
+  display: flex;
+}
+
+.buttons p {
+  text-transform: capitalize;
+}
+
+.buttons button {
+  background-color: var(--bg);
+  border: 2px solid var(--border-button);
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2rem 4.5rem;
+  font-size: 1.5rem;
+  transition: background .2s;
+}
+
+.buttons button:active {
+  background-color: var(--img-profile);
+  transition: background .2s;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

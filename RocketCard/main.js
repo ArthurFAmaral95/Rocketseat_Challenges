@@ -1,3 +1,5 @@
+import { toJpeg } from 'html-to-image'
+
 const url = 'https://api.github.com/users/ArthurFAmaral95'
 const userLogin = document.querySelector('#userLogin')
 const avatar = document.querySelector('#avatar')
@@ -35,7 +37,19 @@ function randomRGB() {
 
 function handleClick(e) {
   console.log(e.target.id)
-  bgCard.style.backgroundColor = randomRGB()
+  if (e.target.id === 'bg') {
+    bgCard.style.backgroundColor = randomRGB()
+  } else if (e.target.id === 'download') {
+    toJpeg(document.querySelector('.card'), { quality: 0.95 }).then(function (
+      dataUrl
+    ) {
+      const link = document.createElement('a')
+      link.download = 'myCard.jpeg'
+      link.href = dataUrl
+      link.click()
+      link.remove()
+    })
+  }
 }
 
 btns.forEach(btn => btn.addEventListener('click', handleClick))
