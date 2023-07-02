@@ -56,8 +56,6 @@ ul li {
   padding-top: 3.78rem;
   padding-left: 3.36rem;
 
-  margin-bottom: 26.6rem;
-
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -81,7 +79,7 @@ ul li {
   height: 41.8rem;
 
   position: absolute;
-  top: 13.4rem;
+  top: 10rem;
   right: 0;
 
   overflow: hidden;
@@ -91,6 +89,36 @@ ul li {
 #avatar {
   border: 1rem solid var(--img-profile);
   border-radius: 50%;
+}
+
+.info {
+  border-radius: 5rem;
+  background: linear-gradient(
+    180deg,
+    #000 3.65%,
+    rgba(70, 69, 69, 0.72) 53.65%,
+    rgba(62, 56, 56, 0.42) 100%
+  );
+
+  padding: 2rem 1rem 2rem 2rem;
+
+  position: absolute;
+  top: 35.3rem;
+  left: 2.1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.81rem;
+}
+
+.info li {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+
+  color: var(--buttons);
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .bgCard {
