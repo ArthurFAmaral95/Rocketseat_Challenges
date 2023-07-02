@@ -76,6 +76,23 @@ ul li {
   font-weight: 400;
 }
 
+.frame {
+  width: 33.1rem;
+  height: 41.8rem;
+
+  position: absolute;
+  top: 13.4rem;
+  right: 0;
+
+  overflow: hidden;
+  padding-top: 2rem;
+}
+
+#avatar {
+  border: 1rem solid var(--img-profile);
+  border-radius: 50%;
+}
+
 .bgCard {
   position: absolute;
   z-index: -1;
