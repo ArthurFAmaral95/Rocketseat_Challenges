@@ -121,6 +121,28 @@ ul li {
   font-weight: 400;
 }
 
+.card footer {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+
+  position: absolute;
+  bottom: 2.8rem;
+  right: 2rem;
+}
+
+.card footer img {
+  width: 2.8rem;
+  height: 3.4rem;
+}
+
+.card footer span {
+  color: var(--buttons);
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 .bgCard {
   position: absolute;
   z-index: -1;
@@ -131,5 +153,5 @@ ul li {
 
   border-radius: 5rem;
 
-  background-color: blue;
+  background-color: var(--bg);
 }
