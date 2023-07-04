@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --title: rgb(255, 252, 249);
+  --subtitle: rgb(179, 179, 179);
+  --bg-button: rgb(233, 230, 227);
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
