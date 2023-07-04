@@ -9,15 +9,75 @@
 
   --title: rgb(255, 252, 249);
   --subtitle: rgb(179, 179, 179);
+  --border-button: rgba(26, 26, 26, 1);
   --bg-button: rgb(233, 230, 227);
   --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
 }
 
 html,
 body {
-  width: 100%;
+  width: 37.5rem;
+  height: 117.8rem;
+  margin: auto;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+
+  background: var(--background);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+
+img {
+  width: 8.72rem;
+
+  padding-top: 5rem;
+}
+
+h1 {
+  color: var(--title);
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+button {
+  display: flex;
+  gap: 1.7rem;
+  align-items: center;
+
+  padding: 1.1rem 1.3rem;
+
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  border-radius: 0.5rem;
+  border: 2px solid var(--border-button);
+  background-color: var(--bg-button);
+
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--subtitle);
+}
+
+button img {
+  width: 3.55rem;
+
+  padding-top: 0;
+}
+
+p {
+  color: var(--title);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
