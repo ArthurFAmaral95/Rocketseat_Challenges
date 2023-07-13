@@ -1,5 +1,10 @@
 const moduleAPI = require('./api')
 
+function randomNumber(min, max) {
+  const num = Math.floor(Math.random() * (max - min + 1)) + min
+  return num
+}
+
 const options = {
   method: 'GET',
   headers: {
