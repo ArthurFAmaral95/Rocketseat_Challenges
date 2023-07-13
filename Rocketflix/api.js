@@ -3,7 +3,7 @@
 
 const API_KEY = 'MY_API_KEY'
 const ACESS_TOKEN = 'MY_ACESS_TOKEN'
-const BASE_URL = 'https://api.themoviedb.org/3/movie/'
+const BASE_URL = 'https://api.themoviedb.org/3/'
 const language = 'language=pt-BR'
 
 module.exports = { API_KEY, ACESS_TOKEN, BASE_URL, language }

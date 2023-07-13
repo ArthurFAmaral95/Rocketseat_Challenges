@@ -575,15 +575,21 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"adjPd":[function(require,module,exports) {
 const moduleAPI = require("f9e8e8503001577f");
-console.log(moduleAPI.BASE_URL);
-console.log(moduleAPI.language);
+const options = {
+    method: "GET",
+    headers: {
+        accept: "application/json",
+        Authorization: `Bearer ${moduleAPI.ACESS_TOKEN}`
+    }
+};
+fetch(`${moduleAPI.BASE_URL}/discover/movie?include_adult=false&include_video=false&${moduleAPI.language}&page=1&sort_by=popularity.desc`, options).then((response)=>response.json()).then((response)=>console.log(response)).catch((err)=>console.error(err));
 
 },{"f9e8e8503001577f":"eqUwj"}],"eqUwj":[function(require,module,exports) {
 // Substitua o CHAVE_DA_API com a chave gerada no site.
 //https://www.themoviedb.org/signup
 const API_KEY = "MY_API_KEY";
 const ACESS_TOKEN = "MY_ACESS_TOKEN";
-const BASE_URL = "https://api.themoviedb.org/3/movie/";
+const BASE_URL = "https://api.themoviedb.org/3/";
 const language = "language=pt-BR";
 module.exports = {
     API_KEY,
