@@ -16,7 +16,7 @@
 
 html,
 body {
-  width: 37.5rem;
+  width: 100%;
   height: 117.8rem;
   margin: auto;
 }
@@ -107,6 +107,8 @@ footer {
 
   position: absolute;
   bottom: 3rem;
+
+  padding-inline: 3rem;
 }
 
 footer.initial {
@@ -146,4 +148,31 @@ p {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  #movie {
+    width: 62.8rem;
+
+    flex-direction: row;
+    gap: 3.4rem;
+    align-items: flex-start;
+
+    padding-inline: 0;
+  }
+
+  #movie #movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #movie #movie-info #movie-title,
+  #movie #movie-info #movie-overview {
+    text-align: left;
+  }
+
+  #movie #movie-info #movie-overview {
+    overflow: visible;
+  }
 }
