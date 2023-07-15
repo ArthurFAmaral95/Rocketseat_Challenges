@@ -114,7 +114,13 @@ function findMovie() {
   }
 
   fetch(
-    `${APIData.BASE_URL}discover/movie?include_adult=false&include_video=false&${APIData.language}&page=${page}&sort_by=popularity.desc`,
+    `${
+      APIData.BASE_URL
+    }discover/movie?include_adult=false&include_video=false&${
+      APIData.language
+    }&page=${page}&sort_by=popularity.desc${
+      selectedGenreID === 0 ? '' : `&with_genres=${selectedGenreID}`
+    }`,
     options
   )
     .then(response => response.json())
@@ -126,8 +132,6 @@ function findMovie() {
       movieImg.src = `${APIData.IMG_URL}${posterPath}`
       movieTitle.textContent = title
       movieOverview.textContent = overview
-
-      console.log(response.results[movie].genre_ids)
 
       movieDiv.classList.remove('hidden')
       footer.classList.remove('initial')
