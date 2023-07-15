@@ -1,17 +1,18 @@
 import * as APIData from './api.js'
 
 const btn = document.querySelector('button')
+const movieImg = document.querySelector('.movie img')
+const movieTitle = document.querySelector('#movie-title')
+const movieOverview = document.querySelector('#movie-overview')
 
 function randomNumber() {
-  const num = Math.floor(Math.random() * 10) + 1
+  const num = Math.floor(Math.random() * 20)
   return num
 }
 
 btn.addEventListener('click', () => {
   const page = randomNumber()
   const movie = randomNumber()
-
-  console.log({ page, movie })
 
   const options = {
     method: 'GET',
@@ -26,6 +27,11 @@ btn.addEventListener('click', () => {
     options
   )
     .then(response => response.json())
-    .then(response => console.log(response.results[movie]))
+    .then(response => {
+      movieTitle.textContent = response.results[movie].title
+      movieOverview.textContent = response.results[movie].overview
+
+      console.log(response.results[movie])
+    })
     .catch(err => console.error(err))
 })

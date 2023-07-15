@@ -42,7 +42,7 @@ img {
 
 h1,
 #movie-title,
-#movie-description {
+#movie-overview {
   color: var(--title);
   font-size: 4rem;
   font-weight: 700;
@@ -55,13 +55,15 @@ h1,
   justify-content: center;
   align-items: center;
   gap: 1.98rem;
+
+  padding-inline: 3rem;
 }
 
 #movie-title {
   font-size: 2rem;
 }
 
-#movie-description {
+#movie-overview {
   font-size: 1.6rem;
   font-weight: 400;
 }
