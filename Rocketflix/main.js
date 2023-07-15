@@ -62,6 +62,7 @@ btn.addEventListener('click', () => {
       movieImg.src = `./assets/Poster.png`
       movieTitle.textContent =
         'Ops, hoje não é dia de assitir filme. Bora codar! 🚀'
+      movieOverview.textContent = ''
       movieDiv.classList.remove('hidden')
       footer.classList.remove('initial')
     })
