@@ -1,9 +1,11 @@
 import * as APIData from './api.js'
 
 const btn = document.querySelector('button')
-const movieImg = document.querySelector('.movie img')
+const movieDiv = document.querySelector('#movie')
+const movieImg = document.querySelector('#movie img')
 const movieTitle = document.querySelector('#movie-title')
 const movieOverview = document.querySelector('#movie-overview')
+const footer = document.querySelector('footer')
 
 const options = {
   method: 'GET',
@@ -40,6 +42,9 @@ btn.addEventListener('click', () => {
           movieImg.src = `${APIData.IMG_URL}${imgPath}`
           movieTitle.textContent = title
           movieOverview.textContent = overview
+
+          movieDiv.classList.remove('hidden')
+          footer.classList.remove('initial')
         })
 
         .catch(err => {
@@ -47,6 +52,9 @@ btn.addEventListener('click', () => {
           movieImg.src = `./assets/Poster.png`
           movieTitle.textContent =
             'Ops, hoje não é dia de assitir filme. Bora codar! 🚀'
+          movieOverview.textContent = ''
+          movieDiv.classList.remove('hidden')
+          footer.classList.remove('initial')
         })
     })
     .catch(err => {
@@ -54,5 +62,7 @@ btn.addEventListener('click', () => {
       movieImg.src = `./assets/Poster.png`
       movieTitle.textContent =
         'Ops, hoje não é dia de assitir filme. Bora codar! 🚀'
+      movieDiv.classList.remove('hidden')
+      footer.classList.remove('initial')
     })
 })

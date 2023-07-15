@@ -32,6 +32,8 @@ body {
   flex-direction: column;
   gap: 3rem;
   align-items: center;
+
+  position: relative;
 }
 
 img {
@@ -49,7 +51,11 @@ h1,
   text-align: center;
 }
 
-.movie {
+#movie.hidden {
+  display: none;
+}
+
+#movie {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,7 +65,7 @@ h1,
   padding-inline: 3rem;
 }
 
-.movie img {
+#movie img {
   width: 17.1rem;
 
   padding-top: 0;
@@ -72,6 +78,20 @@ h1,
 #movie-overview {
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  align-items: center;
+
+  position: absolute;
+  bottom: 3rem;
+}
+
+footer.initial {
+  position: inherit;
 }
 
 button {
