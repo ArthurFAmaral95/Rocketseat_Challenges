@@ -250,3 +250,31 @@ A repository to solve Rocketseat`s challenges using HTML, CSS and JavaScript.
 <p>Click <a href="https://www.figma.com/file/4ZO5jbwxdlSKZZZr12uzYl/Rocketcard-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=501%3A6&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
 
 <hr>
+
+<h2>Rocket Flix</h2>
+<p>On this challenge we use HTML, CSS and JavaScript to create a movie selector. You can choose a movie genre and click the button for a movie sugestion.</p>
+<ul>
+<li>Variables</li>
+<li>Display flex</li>
+<li>Pseudo selectors</li>
+<li>Absolute positioning</li>
+<li>@media</li>
+<li>JS as module</li>
+<li>The MovieDG API</li>
+<li>Functions</li>
+<li>Fetch()</li>
+<li>Event Listeners</li>
+<li>forEach()</li>
+<li>Array.map()</li>
+</ul>
+<p align="center">
+  <img alt="Rocket FLix project: initial desktop page" src="./challenges-pics/RocketFlix-desktop-initial.png">
+</p>
+<p align="center">
+  <img alt="Rocket FLix project: desktop page" src="./challenges-pics/RocketFlix-desktop.png">
+</p>
+<p align="center">
+  <img alt="Rocket FLix project: mobile page" src="./challenges-pics/RocketFLix-mobile.png" width="300">
+  <img alt="Rocket FLix project: mobile page movie not found" src="./challenges-pics/RocketFlix-mobile-not-found.png" width="300">
+</p>
+<p>Click <a href="https://www.figma.com/file/HWGynJbMbw2LdShTiY7X4c/Rocketflix-%E2%80%A2-Desafio-Discover-(Community)-(Copy)?node-id=701%3A96&mode=dev" target="_blank">here</a> to see the project on Figma.</p>
