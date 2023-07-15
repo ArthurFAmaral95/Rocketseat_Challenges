@@ -40,11 +40,30 @@ img {
   padding-top: 5rem;
 }
 
-h1 {
+h1,
+#movie-title,
+#movie-description {
   color: var(--title);
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.98rem;
+}
+
+#movie-title {
+  font-size: 2rem;
+}
+
+#movie-description {
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 button {
