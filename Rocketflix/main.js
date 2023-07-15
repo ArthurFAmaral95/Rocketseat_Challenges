@@ -30,32 +30,16 @@ btn.addEventListener('click', () => {
   )
     .then(response => response.json())
     .then(response => {
-      const movieID = response.results[movie].id
       const title = response.results[movie].title
       const overview = response.results[movie].overview
+      const posterPath = response.results[movie].poster_path
 
-      fetch(`${APIData.BASE_URL}movie/${movieID}/images`, options)
-        .then(response => response.json())
-        .then(response => {
-          const imgPath = response.posters[0].file_path
+      movieImg.src = `${APIData.IMG_URL}${posterPath}`
+      movieTitle.textContent = title
+      movieOverview.textContent = overview
 
-          movieImg.src = `${APIData.IMG_URL}${imgPath}`
-          movieTitle.textContent = title
-          movieOverview.textContent = overview
-
-          movieDiv.classList.remove('hidden')
-          footer.classList.remove('initial')
-        })
-
-        .catch(err => {
-          console.error(err)
-          movieImg.src = `./assets/Poster.png`
-          movieTitle.textContent =
-            'Ops, hoje não é dia de assitir filme. Bora codar! 🚀'
-          movieOverview.textContent = ''
-          movieDiv.classList.remove('hidden')
-          footer.classList.remove('initial')
-        })
+      movieDiv.classList.remove('hidden')
+      footer.classList.remove('initial')
     })
     .catch(err => {
       console.error(err)
