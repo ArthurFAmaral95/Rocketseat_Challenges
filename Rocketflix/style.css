@@ -43,12 +43,27 @@ img {
 }
 
 h1,
+#filter label,
 #movie-title,
 #movie-overview {
   color: var(--title);
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
+}
+
+#filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding-bottom: 2rem;
+}
+
+#filter select {
+  width: 20rem;
+  border-radius: 0.5rem;
 }
 
 #movie.hidden {
@@ -71,7 +86,8 @@ h1,
   padding-top: 0;
 }
 
-#movie-title {
+#movie-title,
+#filter label {
   font-size: 2rem;
 }
 
@@ -79,7 +95,7 @@ h1,
   font-size: 1.6rem;
   font-weight: 400;
 
-  height: 35.4rem;
+  height: 25rem;
   overflow: scroll;
 }
 
