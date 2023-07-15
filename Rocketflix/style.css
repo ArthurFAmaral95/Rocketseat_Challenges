@@ -59,6 +59,12 @@ h1,
   padding-inline: 3rem;
 }
 
+.movie img {
+  width: 17.1rem;
+
+  padding-top: 0;
+}
+
 #movie-title {
   font-size: 2rem;
 }
